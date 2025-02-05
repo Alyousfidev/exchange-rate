@@ -12,8 +12,8 @@ btnChange.addEventListener("click",function(){
 })
 
 yer.addEventListener("input", function(){
-    usd.value=((yer.value /530)).toFixed(2)
+    usd.value=((yer.value /600)).toFixed(2)
 })
 usd.addEventListener("input", function(){
-    yer.value=((usd.value * 530)) 
+    yer.value=((usd.value * 600)) 
 })
